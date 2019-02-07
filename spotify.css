@@ -1,0 +1,175 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  font-family: sans-serif;
+}
+
+.mainleft{
+  width: 15vw;
+  color: white;
+  background: black;
+  height: 55vw;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+.title{
+  margin-left: 1vw;
+  margin-top: 1vw;
+}
+
+.couple{
+  margin-top: 0.2vw;
+  padding: 5px;
+}
+
+.title>i,h1, .couple>i,span{
+  display: inline;
+}
+
+.search, .daily{
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.8vw;
+  margin-left: 1vw;
+  position: relative;
+}
+
+.maindaily{
+  margin-top: 2vw;
+}
+
+.daily>i{
+  position: absolute;
+  right: 1vw;
+  top: 3vw;
+}
+
+.daily>span{
+  display: block;
+}
+
+span{
+  font-size: 13px;
+  color: gray;
+}
+
+.bottom{
+  color: gray;
+  margin-bottom: 2vw;
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+  padding: 5px;
+}
+
+.end{
+  margin-bottom: 0.5vw;
+  margin-top: 0.5vw;
+}
+
+.mainright{
+  width: 85vw;
+  height: 55vw;
+  background: #6d6c1c;
+  /* background-image: linear-gradient(top left,#e5e619 0%,black 100%); */
+}
+
+.maintitle{
+  font-size: 13px;
+  margin-left: 1vw;
+  display: flex;
+  justify-content: center;
+}
+
+.maintitle>span{
+  color: lightgrey;
+  margin-top: 2vw;
+  margin-left: 3vw;
+}
+
+.maintitle>span:hover{
+  border-bottom: 1px solid darkgreen;
+}
+
+.cover{
+  color: white;
+  margin-left: 4vw;
+  margin-top: 4vw;
+}
+
+.pattine{
+  display: flex;
+  margin-left: 4vw;
+}
+
+.img-span{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-span>img{
+  width: 135px;
+  height: 135px;
+  margin-left: 0.5vw;
+  margin-top: 3vw;
+}
+
+.img-span>span, .sinistra>span{
+  color: lightgrey;
+  margin-top: 1vw;
+}
+
+footer{
+  color: lightgrey;
+  height: 6vw;
+  width: 100vw;
+  background: #202422;
+}
+
+.mainfoot{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sinistra>img{
+  width: 50px;
+  height: 50px;
+  margin-left: 1vw;
+  margin-top: 1vw;
+}
+ .centro{
+   margin-top: 1vw;
+}
+
+ .centro>i {
+   margin-left: 4vw;
+ }
+
+ .linea{
+   width: 30vw;
+   margin-top: 2vw;
+   border-bottom: 2px solid white;
+}
+
+.destra{
+  margin-right: 1vw;
+  margin-top: 2vw;
+}
+
+.destra>i{
+  margin-right: 1vw;
+}
+
+@media all and screen ( max-widht= 480px){
+  .maintitle{
+    display: none;
+  }
+
+}
