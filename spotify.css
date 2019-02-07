@@ -12,7 +12,7 @@
   width: 15vw;
   color: white;
   background: black;
-  height: 55vw;
+  height: 88vh;
   display: flex;
   flex-direction: column;
   justify-content:space-between;
@@ -30,6 +30,7 @@
 
 .title>i,h1, .couple>i,span{
   display: inline;
+  font-size: 30px;
 }
 
 .search, .daily{
@@ -75,9 +76,9 @@ span{
 
 .mainright{
   width: 85vw;
-  height: 55vw;
-  background: #6d6c1c;
-  /* background-image: linear-gradient(top left,#e5e619 0%,black 100%); */
+  height: 88vh;
+  overflow-y: scroll;
+  background-image: linear-gradient(to top left,black,#e5e619);
 }
 
 .maintitle{
@@ -106,6 +107,7 @@ span{
 .pattine{
   display: flex;
   margin-left: 4vw;
+  flex-wrap: wrap;
 }
 
 .img-span{
@@ -128,9 +130,11 @@ span{
 
 footer{
   color: lightgrey;
-  height: 6vw;
+  height: 12vh;
   width: 100vw;
   background: #202422;
+  position: fixed;
+  bottom: 0;
 }
 
 .mainfoot{
