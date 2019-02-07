@@ -98,6 +98,10 @@ span{
   border-bottom: 1px solid darkgreen;
 }
 
+#hamburger{
+  display: none;
+}
+
 .cover{
   color: white;
   margin-left: 4vw;
@@ -171,9 +175,24 @@ footer{
   margin-right: 1vw;
 }
 
-@media all and screen ( max-widht= 480px){
+@media (max-width: 767px){
   .maintitle{
-    display: none;
+    height: 0px;
+    overflow: hidden;
+  }
+  #hamburger{
+    color: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    font-size: 40px;
+    padding: 10px;
+
+  }
+  span,h1{
+    height: 0;
+    overflow: hidden;
+    font-size: 10px;
   }
 
 }
